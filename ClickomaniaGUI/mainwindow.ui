@@ -264,7 +264,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Tableros encontrados:</string>
+     <string>Boards</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -277,7 +277,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Recargar listado</string>
+     <string>Refresh board list</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -290,7 +290,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Puntuación:</string>
+     <string>Total score</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -303,7 +303,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Última puntuación:</string>
+     <string>Last move score</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
@@ -367,7 +367,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>Aplicar el siguiente movimiento de la secuencia</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Apply next move&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
      <string>→</string>
@@ -393,7 +393,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>A*</string>
+     <string>Run A*</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -406,7 +406,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Generador de tableros:</string>
+     <string>Board generator</string>
     </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_3">
@@ -419,7 +419,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>Número de columnas</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Columns&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="minimum">
      <number>2</number>
@@ -441,7 +441,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>Número de filas</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Rows&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="minimum">
      <number>2</number>
@@ -463,7 +463,7 @@
      </rect>
     </property>
     <property name="toolTip">
-     <string>Número de colores</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Colors&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="minimum">
      <number>2</number>
@@ -485,7 +485,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Generar tablero aleatorio</string>
+     <string>Generate random board</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_20">
@@ -498,7 +498,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Limpiar tablero</string>
+     <string>Clear board</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_21">
@@ -511,7 +511,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Guardar tablero</string>
+     <string>Save board</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
@@ -519,12 +519,12 @@
      <rect>
       <x>540</x>
       <y>730</y>
-      <width>171</width>
+      <width>101</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>Tiempo de ejecución:</string>
+     <string>Running time</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_9">

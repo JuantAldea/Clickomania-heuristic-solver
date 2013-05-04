@@ -3,7 +3,7 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = 
+TARGET = ClickomaniaGUI
 DEPENDPATH += .
 INCLUDEPATH += .
 
@@ -12,7 +12,4 @@ HEADERS += AStar.h AStarHeap.h AStarNode.h AStarSet.h Board.h mainwindow.h
 FORMS += mainwindow.ui
 SOURCES += Board.cpp main.cpp mainwindow.cpp
 
-contains(MEEGO_EDITION,harmattan) {
-    target.path = /opt/ClickomaniaGUI/bin
-    INSTALLS += target
-}
+
